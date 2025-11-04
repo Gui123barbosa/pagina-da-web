@@ -13,7 +13,8 @@ img {
     /* Para focar no centro da imagem */
     object-position: center; 
 }
-img {
-    max-width: 100%; /* Garante que a imagem não saia do contêiner */
-    height: auto;    /* Mantém a proporção original da imagem */
+.card-image {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Proporção widescreen */
+    object-fit: cover;
 }
