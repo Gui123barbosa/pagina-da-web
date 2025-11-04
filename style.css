@@ -1,0 +1,15 @@
+/* Para aplicar a todas as imagens */
+img {
+    width: 200px;  /* Largura padrão */
+    height: 150px; /* Altura padrão */
+    object-fit: cover; /* Evita distorção, cortando as bordas */
+}
+
+/* Ou use uma classe para um grupo específico de imagens (Recomendado) */
+.mini-padrao {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    /* Para focar no centro da imagem */
+    object-position: center; 
+}
